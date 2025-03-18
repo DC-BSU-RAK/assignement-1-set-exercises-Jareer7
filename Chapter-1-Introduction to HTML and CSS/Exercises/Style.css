@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b5772d;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #030303;
+}
+
+h2 {
+    color: #07050a;
+}
+
+ul, ol {
+    background-color: #b5772d;;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+li {
+    margin-bottom: 5px;
+}
