@@ -1,20 +1,24 @@
+/* Sets the font and text alignment for the entire body */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: Arial, sans-serif; /* Uses Arial or sans-serif as a fallback */
+    text-align: center; /* Centers all text content */
 }
 
+/* Styles for the image container */
 .image-container {
-    display: inline-block;
-    margin: 20px;
+    display: inline-block; /* Allows images to be placed side by side */
+    margin: 20px; /* Adds space around each image container */
 }
 
+/* Styles for images */
 img {
-    border: 5px solid #333;
-    border-radius: 10px;
-    filter: grayscale(50%) brightness(90%);
+    border: 5px solid #333; /* Adds a dark gray border around images */
+    border-radius: 10px; /* Rounds the corners slightly */
+    filter: grayscale(50%) brightness(90%); /* Applies a grayscale effect and reduces brightness */
 }
 
+/* Styles for the copyright text under each image */
 p {
-    font-size: 14px;
-    color: #666;
+    font-size: 14px; /* Sets a smaller font size for copyright info */
+    color: #666; /* Makes the text a dark gray for better readability */
 }
