@@ -1,0 +1,22 @@
+/* Styling for the first div (Red Background) */
+div:nth-child(1) {
+    background-color: red; /* Makes the div red */
+}
+
+/* Styling for the second div (Blue Circle) */
+div:nth-child(2) {
+    background-color: blue; /* Makes the div blue */
+    border-radius: 50%; /* Turns it into a circle */
+}
+
+/* Styling for the third div (Rotated Green Box) */
+div:nth-child(3) {
+    background-color: green; /* Makes the div green */
+    transform: rotate(15deg); /* Rotates it by 15 degrees */
+}
+
+/* Styling for the fourth div (Yellow Box with Shadow) */
+div:nth-child(4) {
+    background-color: yellow; /* Makes the div yellow */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+}
