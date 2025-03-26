@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+    background: #eee;
+    padding: 10px;
+    border-left: 5px solid #333;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    color: #d63384;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+.container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
