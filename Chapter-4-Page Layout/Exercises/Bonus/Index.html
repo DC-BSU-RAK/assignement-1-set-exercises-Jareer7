@@ -3,51 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Planner</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Study Planner - Web Development</title>
+    <link rel="stylesheet" href="style.css"> <!-- External stylesheet -->
 </head>
 <body>
+
+    <!-- Header section with title -->
     <header>
-        <h1>Study Planner</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Tasks</a></li>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </nav>
+        <h1>Web Development Study Planner</h1>
     </header>
-    
+
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Modules</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area -->
     <main>
-        <section class="planner">
-            <h2>My Study Plan</h2>
-            <div class="columns">
-                <div class="tasks">
-                    <h3>Tasks</h3>
-                    <ul>
-                        <li>Complete HTML & CSS exercises</li>
-                        <li>Review JavaScript fundamentals</li>
-                        <li>Work on project wireframes</li>
-                        <li>Read about responsive design</li>
-                        <li>Prepare for the next class</li>
-                    </ul>
-                </div>
-                <div class="schedule">
-                    <h3>Schedule</h3>
-                    <p>Monday - HTML & CSS Practice</p>
-                    <p>Tuesday - JavaScript Basics</p>
-                    <p>Wednesday - Project Work</p>
-                    <p>Thursday - Research & Reading</p>
-                    <p>Friday - Review & Quiz</p>
-                </div>
+
+        <!-- Wireframe placeholder image -->
+        <section class="wireframe">
+            <h2>Page Wireframe</h2>
+            <img src="wireframe.png" alt="Wireframe layout of the study planner" />
+        </section>
+
+        <!-- Study tasks section divided into three columns -->
+        <section class="study-tasks">
+
+            <!-- Column 1 -->
+            <div class="column">
+                <h3>To Do</h3>
+                <ul>
+                    <li>Read HTML5 basics</li>
+                    <li>Review semantic tags</li>
+                </ul>
+                <button>Add Task</button>
             </div>
-            <button>Save Plan</button>
+
+            <!-- Column 2 -->
+            <div class="column">
+                <h3>In Progress</h3>
+                <ul>
+                    <li>Style with CSS</li>
+                    <li>Create layout with Flexbox</li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="column">
+                <h3>Completed</h3>
+                <ul>
+                    <li>Set up project structure</li>
+                </ul>
+            </div>
+
         </section>
     </main>
-    
+
+    <!-- Footer section -->
     <footer>
-        <p>&copy; 2025 Study Planner</p>
+        <p>&copy; 2025 Cyber Security - Web Development Module</p>
     </footer>
+
 </body>
 </html>
