@@ -1,24 +1,67 @@
-/* Sets the font and text alignment for the entire body */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif; /* Uses Arial or sans-serif as a fallback */
-    text-align: center; /* Centers all text content */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-/* Styles for the image container */
+/* Main Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    font-size: 4.5em;
+}
+
+/* Image Container */
 .image-container {
-    display: inline-block; /* Allows images to be placed side by side */
-    margin: 20px; /* Adds space around each image container */
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 420px;
+    padding: 15px;
+    transition: transform 0.3s ease;
 }
 
-/* Styles for images */
-img {
-    border: 5px solid #333; /* Adds a dark gray border around images */
-    border-radius: 10px; /* Rounds the corners slightly */
-    filter: grayscale(50%) brightness(90%); /* Applies a grayscale effect and reduces brightness */
+.image-container:hover {
+    transform: translateY(-5px);
 }
 
-/* Styles for the copyright text under each image */
-p {
-    font-size: 14px; /* Sets a smaller font size for copyright info */
-    color: #666; /* Makes the text a dark gray for better readability */
+/* Image Styling */
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 10px;
 }
+
+/* Caption */
+.image-container p {
+    font-size: 0.95em;
+    color: #555;
+    text-align: center;
+}
+
+/* Responsive Layout (Optional) */
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        max-width: 600px;
+    }
+}
+
