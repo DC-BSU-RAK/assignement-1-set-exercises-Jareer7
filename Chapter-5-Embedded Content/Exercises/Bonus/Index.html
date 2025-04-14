@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alan Partridge Soundboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="tts-box">
+      <label for="tts">🎙️ PSYCHEDELIC FISH</label>
+      <textarea id="tts" placeholder="Type Here"></textarea>
+      <button onclick="speakText()">Say it</button>
+    </div>
+
+    <div class="soundboard">
+      <h2 id="bank-title">Sample Bank 1</h2>
+      <div id="samples" class="grid"></div>
+
+      <div class="nav-buttons">
+        <button id="prev" onclick="prevPage()">⬅️</button>
+        <button id="next" onclick="nextPage()">➡️</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
