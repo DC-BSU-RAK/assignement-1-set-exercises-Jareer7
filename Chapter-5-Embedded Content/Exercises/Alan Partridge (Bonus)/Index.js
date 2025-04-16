@@ -1,13 +1,13 @@
 const audioSamples = [
-    { id: 10, name: "Ah-Ha", file: "ah-ha.mp3" },
-    { id: 11, name: "Dan", file: "dan.mp3" },
-    { id: 12, name: "Back of the net", file: "back-of-the-net.mp3" },
-    { id: 13, name: "Bang out of order", file: "bangoutoforder.mp3" },
-    { id: 14, name: "email of the evening", file: "emailoftheevening.mp3" },
-    { id: 15, name: "i ate a scotch egg", file: "iateascotchegg.mp3" },
-    { id: 16, name: "im confused", file: "imconfused.mp3" },
-    { id: 17, name: "Hello Partridge", file: "hellopartridge.mp3" },
-    // Add more if needed for scrolling...
+    { id: 1, name: "Ah-Ha", file: "ah-ha.mp3" },
+    { id: 4, name: "Dan", file: "dan.mp3" },
+    { id: 5, name: "Back of the net", file: "back-of-the-net.mp3" },
+    { id: 7, name: "Bang out of order", file: "bangoutoforder.mp3" },
+    { id: 2, name: "email of the evening", file: "emailoftheevening.mp3" },
+    { id: 6, name: "i ate a scotch egg", file: "iateascotchegg.mp3" },
+    { id: 3, name: "im confused", file: "imconfused.mp3" },
+    { id: 8, name: "Hello Partridge", file: "hellopartridge.mp3" },
+  
   ];
   
   let currentPage = 0;
